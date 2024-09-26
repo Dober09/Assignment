@@ -11,7 +11,7 @@ namespace Assignment
 
       public string Lyric(int number)
         {
-            string lyric = number+" bottles of milk on the wall, "+ number +" bottles of milk. Take one down and pass it around, \r\n";
+            string lyric = $"{number} bottles of milk on the wall, {number} bottles of milk. Take one down and pass it around, \r\n";
 
 
               return lyric;
@@ -25,7 +25,7 @@ namespace Assignment
 
                 if (number == 1)
                 {
-                    Console.WriteLine("1 bottle of milk on the wall, 1 bottle of milk. Take it and drink it");
+                    Console.WriteLine($"{number} bottle of milk on the wall, {number} bottle of milk. Take it and drink it");
                 }
                 else
                 {
